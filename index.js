@@ -30,11 +30,16 @@ const questions = [
         message: 'What did you learn?',
         name: 'learn',
     },
-    //Table of Contents
+    //questions
     {
         type: 'input',
-        message: 'What is your user name?',
+        message: 'What is your Github name?',
         name: 'username',
+    },
+    {
+        type: 'input',
+        message: 'What is your email?',
+        name: 'email',
     },
     //installation
     {
